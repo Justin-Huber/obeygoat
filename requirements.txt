@@ -1,3 +1,2 @@
 django==1.11.13
-pip install gunicorn
 gunicorn==20.0.4
