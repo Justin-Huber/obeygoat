@@ -12,7 +12,7 @@ eg, on Ubuntu:
 
     sudo add-apt-repository ppa:deadsnakes/ppa
     sudo apt update
-    sudo apt install nginx git python3.7 python3.7-venv
+    sudo apt install nginx git python36 python3.6-venv
 
 ## Nginx Virtual Host config
 
@@ -30,13 +30,14 @@ Assume we have a user account at /home/username
 
 /home/username
 └── sites
-    ├── DOMAIN1
-    │    ├── .env
-    │    ├── db.sqlite3
-    │    ├── manage.py etc
-    │    ├── static
-    │    └── virtualenv
-    └── DOMAIN2
-         ├── .env
-         ├── db.sqlite3
-         ├── etc
+    ├── DOMAIN1
+    │    ├── .env
+    │    ├── db.sqlite3
+    │    ├── manage.py etc
+    │    ├── static
+    │    └── virtualenv
+    └── DOMAIN2
+         ├── .env
+         ├── db.sqlite3
+         ├── etc
+
