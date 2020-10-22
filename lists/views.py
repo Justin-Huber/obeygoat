@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
 
-from lists.forms import ItemForm, ExistingListItemForm
+from lists.forms import ExistingListItemForm, ItemForm
 from lists.models import List
 
 def home_page(request):
